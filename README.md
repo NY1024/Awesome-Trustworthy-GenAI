@@ -7,6 +7,8 @@
 <a href=""> <img src="https://img.shields.io/github/last-commit/NY1024/Awesome-Trustworthy-GenAI"></a>
 </p>
 
+---
+## 
 
 ---
 
@@ -15,4 +17,4 @@
 ---
 - Organizers: [Zonghao Ying(应宗浩)](https://elwood.me/)
 
-![GitHub last commit](https://img.shields.io/github/last-commit/NY1024/Awesome-Trustworthy-GenAI)
+<p align="center"><img src="figs/1.png" width="500" /></p>
