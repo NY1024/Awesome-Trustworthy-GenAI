@@ -8,7 +8,16 @@
 </p>
 
 ---
-## 
+Update[06/27/2024]
+
+---
+## Categories
+- [Paper](paper.md)
+- [Book](book.md)
+- [Tutorial](tutorial.md)
+- [Competition](competition.md)
+
+
 
 ---
 
