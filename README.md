@@ -15,6 +15,7 @@ Update[06/27/2024]
   - [LLM](paper/llm.md)
   - [MLLM](paper/mllm.md)
   - [T2I](paper/t2i.md)
+  - [Agent](paper/agent.md)
 - [Book](book.md)
 - [Tutorial](tutorial.md)
 - [Competition](competition.md)
