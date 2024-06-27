@@ -17,4 +17,4 @@
 ---
 - Organizers: [Zonghao Ying(应宗浩)](https://elwood.me/)
 
-<p align="center"><img src="figs/1.png" width="500" /></p>
+<p align="center"><img src="figs/1.png"/></p>
