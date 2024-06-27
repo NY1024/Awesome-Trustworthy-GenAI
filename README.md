@@ -8,7 +8,19 @@
 
 ---
 Update[06/27/2024]
+### Attack
 
+| Title                                                        | Author          | Publish | Year | Link                                                         | Source Code                                                  |
+| ------------------------------------------------------------ | --------------- | ------- | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Visual Adversarial Examples Jailbreak Large Language Models  | Xiangyu Qi      | AAAI    | 2024 | [AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/30150/32038) | [github](https://github.com/Unispac/Visual-Adversarial-Examples-Jailbreak-Large-Language-Models) |
+| Unveiling the Safety of GPT-4o: An Empirical Study using Jailbreak Attacks | Zonghao Ying    | arxiv   | 2024 | https://arxiv.org/abs/2406.06302                             | https://github.com/ny1024/jailbreak_gpt4o                    |
+| Jailbreak Vision Language Models via Bi-Modal Adversarial Prompt | Zonghao Ying    | arxiv   | 2024 | https://arxiv.org/abs/2406.04031                             | https://github.com/NY1024/BAP-Jailbreak-Vision-Language-Models-via-Bi-Modal-Adversarial-Prompt |
+| Jailbreak in pieces: Compositional Adversarial Attacks on Multi-Modal Language Models | Erfan Shayegani | ICLR    | 2024 | https://openreview.net/forum?id=plmBsXHxgR                   | null                                                         |
+| FigStep: Jailbreaking Large Vision-language Models via Typographic Visual Prompts | Yichen Gong     | arxiv   | 2023 | https://arxiv.org/abs/2311.05608                             | https://github.com/ThuCCSLab/FigStep                         |
+| Images are Achilles' Heel of Alignment: Exploiting Visual Vulnerabilities for Jailbreaking Multimodal Large Language Models | Yifan Li        | arxiv   | 2024 | https://arxiv.org/abs/2403.09792                             | https://github.com/AoiDragon/HADES                           |
+| Red Teaming GPT-4V: Are GPT-4V Safe Against Uni/Multi-Modal Jailbreak Attacks? | Shuo Chen       | arxiv   | 2024 | https://arxiv.org/abs/2404.03411                             | null                                                         |
+| Cross-Modality Jailbreak and Mismatched Attacks on Medical Multimodal Large Language Models | Xijie Huang     | arxiv   | 2024 | https://arxiv.org/abs/2405.20775                             | https://github.com/dirtycomputer/O2M_attack                  |
+| Visual-RolePlay: Universal Jailbreak Attack on MultiModal Large Language Models via Role-playing Image Character | Siyuan Ma       | arxiv   | 2024 | https://arxiv.org/abs/2405.20773                             | null                                                         |
 ---
 ## Categories
 - [Paper](paper.md)
