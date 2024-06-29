@@ -15,7 +15,7 @@ Update[06/29/2024]
 | 人工智能安全                                                 | 方滨兴                                                       | 电子工业出版社 | 2022 | null                                                        |
 | 人工智能安全                                                 | 曾剑平                                                       | 清华大学出版社 | 2022 | null                                                        |
 | 人工智能安全                                                 | 陈左宁                                                       | 电子工业出版社 | 2024 | null                                                        |
-| AI安全:技术与实战                                            | 腾讯安全朱雀实验室 作者：流浪在银河边缘的阿强 https://www.bilibili.com/read/cv24788984/ 出处：bilibili | 电子工业出版社 | 2022 | null                                                        |
+| AI安全:技术与实战                                            | 腾讯安全朱雀实验室 | 电子工业出版社 | 2022 | null                                                        |
 | Trustworthy Machine Learning                                 | Kush R. Varshney                                             | null           | 2022 | null                                                        |
 | 人工智能:数据与模型安全                                      | 姜育刚                                                       | 机械工业出版社 | 2024 | null                                                        |
 
