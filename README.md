@@ -7,17 +7,65 @@
 </p>
 
 ---
+## Categories
+- [Paper](paper.md)
+  - [LLM](paper/llm.md)
+  - [MLLM](paper/mllm.md)
+  - [T2I](paper/t2i.md)
+  - [Agent](paper/agent.md)
+- [Book](book.md)
+- [Tutorial](tutorial.md)
+- [Arena](arena.md)
+- [Competition](competition.md)
+  
+---
 Update[06/29/2024]
+
+### Competition
+
+| Title                                                        | Organizer               | Year | Link                                                         | Category |
+| ------------------------------------------------------------ | ----------------------- | ---- | ------------------------------------------------------------ | -------- |
+|                                                              |                         |      |                                                              |          |
+| Machine Learning Model Attribution Challenge                 | MITRE                   | 2022 | https://mlmac.io/                                            | Privacy  |
+| Training Data Extraction Challenge                           | Google                  | 2022 | https://github.com/google-research/lm-extraction-benchmark   | Privacy  |
+| Find the Trojan: Universal Backdoor Detection in Aligned LLMs | ETHZ                    | 2024 | https://github.com/ethz-spylab/rlhf_trojan_competition       | Security |
+| LLM - Detect AI Generated Text                               | The Learning Agency Lab | 2023 | https://www.kaggle.com/competitions/llm-detect-ai-generated-text/overview | Deepfake |
+| Deepfake Detection Challenge                                 | Kaggle                  | 2019 | https://www.kaggle.com/c/deepfake-detection-challenge        | Deepfake |
+| Large Language Model Capture-the-Flag (LLM CTF) Competition  | Kaggle                  | 2024 | https://ctf.spylab.ai/                                       | Safety   |
+
+### Leaderboard
+
+| Title                                                        | First Author       | Publish | Year | Link                                                         |
+| ------------------------------------------------------------ | ------------------ | ------- | ---- | ------------------------------------------------------------ |
+| LLM Safety Leaderboard                                       | Boxin Wang         | NeurIPS | 2023 | https://huggingface.co/spaces/AI-Secure/llm-trustworthy-leaderboard |
+| Hallucinations Leaderboard                                   | Pasquale Minervini | null    | 2023 | https://huggingface.co/spaces/hallucinations-leaderboard/leaderboard |
+| [JailbreakBench](https://jailbreakbench.github.io/)          | Patrick Chao       | arxiv   | 2024 | https://jailbreakbench.github.io/                            |
+| A Comprehensive Study of Trustworthiness in Large Language Models. | Lichao Sun         | arxiv   | 2024 | https://trustllmbenchmark.github.io/TrustLLM-Website/leaderboard.html |
+| PromptBench: Towards Evaluating the Robustness of Large Language Models on Adversarial Prompts | Kaijie Zhu         | arxiv   | 2023 | https://llm-eval.github.io/pages/leaderboard/advprompt.html  |
+| Leaderboard Comparing LLM Performance at Producing Hallucinations when Summarizing Short Documents | Vectara            | github  | 2023 | https://github.com/vectara/hallucination-leaderboard         |
+
+### Arena
+
+| Title                                                        | Institution     | Year | Link                                                       |
+| ------------------------------------------------------------ | --------------- | ---- | ---------------------------------------------------------- |
+| LMSYS Chatbot Arena (Multimodal): Benchmarking LLMs and VLMs in the Wild | LMSYS Org       | 2024 | https://arena.lmsys.org/                                   |
+| 中文大模型竞技场                                             | ModelScope      | 2024 | https://modelscope.cn/studios/LLMZOO/Chinese-Arena/summary |
+| 司南 OpenCompass 大模型竞技场                                | Shanghai AI Lab | 2024 | https://opencompass.org.cn/arena                           |
+| 模型广场                                                     | Coze            | 2024 | https://www.coze.cn/model/arena                            |
+
 ### Book
-| Title                                                        | Author                                                       | Publish        | Year | Link                                                        |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | -------------- | ---- | ----------------------------------------------------------- |
-| Adversarial Machine Learning A Taxonomy and Terminology of Attacks and Mitigations | Apostol Vassilev                                             | online         | 2024 | https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-2e2023.pdf |
-| 人工智能安全                                                 | 方滨兴                                                       | 电子工业出版社 | 2022 | null                                                        |
-| 人工智能安全                                                 | 曾剑平                                                       | 清华大学出版社 | 2022 | null                                                        |
-| 人工智能安全                                                 | 陈左宁                                                       | 电子工业出版社 | 2024 | null                                                        |
+
+| Title                                                        | Author             | Publish        | Year | Link                                                        |
+| ------------------------------------------------------------ | ------------------ | -------------- | ---- | ----------------------------------------------------------- |
+| Adversarial Machine Learning A Taxonomy and Terminology of Attacks and Mitigations | Apostol Vassilev   | online         | 2024 | https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-2e2023.pdf |
+| 人工智能安全                                                 | 方滨兴             | 电子工业出版社 | 2022 | null                                                        |
+| 人工智能安全                                                 | 曾剑平             | 清华大学出版社 | 2022 | null                                                        |
+| 人工智能安全                                                 | 陈左宁             | 电子工业出版社 | 2024 | null                                                        |
 | AI安全:技术与实战                                            | 腾讯安全朱雀实验室 | 电子工业出版社 | 2022 | null                                                        |
-| Trustworthy Machine Learning                                 | Kush R. Varshney                                             | null           | 2022 | null                                                        |
-| 人工智能:数据与模型安全                                      | 姜育刚                                                       | 机械工业出版社 | 2024 | null                                                        |
+| Trustworthy Machine Learning                                 | Kush R. Varshney   | null           | 2022 | null                                                        |
+| 人工智能:数据与模型安全                                      | 姜育刚             | 机械工业出版社 | 2024 | null                                                        |
+
+
 
 
 ### Attack
@@ -34,15 +82,7 @@ Update[06/29/2024]
 | Cross-Modality Jailbreak and Mismatched Attacks on Medical Multimodal Large Language Models | Xijie Huang     | arxiv   | 2024 | https://arxiv.org/abs/2405.20775                             | https://github.com/dirtycomputer/O2M_attack                  |
 | Visual-RolePlay: Universal Jailbreak Attack on MultiModal Large Language Models via Role-playing Image Character | Siyuan Ma       | arxiv   | 2024 | https://arxiv.org/abs/2405.20773                             | null                                                         |
 ---
-## Categories
-- [Paper](paper.md)
-  - [LLM](paper/llm.md)
-  - [MLLM](paper/mllm.md)
-  - [T2I](paper/t2i.md)
-  - [Agent](paper/agent.md)
-- [Book](book.md)
-- [Tutorial](tutorial.md)
-- [Competition](competition.md)
+
 
 
 
