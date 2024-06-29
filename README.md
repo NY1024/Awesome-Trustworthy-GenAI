@@ -27,6 +27,26 @@
     - Bias
     - Others
   - [T2I](paper/t2i.md)
+    - IP
+      - Protection
+      - Violation
+      - Survey
+    - Privacy
+      - Attack
+      - Defense
+      - Benchmark
+    - Memorization
+    - Deepfake
+      - Construction
+      - Detection
+      - Benchmark
+    - Bias
+    - Backdoor
+      - Attack
+      - Defense
+    - Adversarial
+      - Attack
+      - Defense
   - [Agent](paper/agent.md)
 - [Book](book.md)
 - [Tutorial](tutorial.md)
@@ -151,36 +171,187 @@ Update[06/29/2024]
 | Moderating Illicit Online Image Promotion for Unsafe User-Generated Content Games Using Large Vision-Language Models | Keyan Guo     | USENIX Security | 2024 | https://arxiv.org/abs/2403.18957 | null        |
 
 # T2I
+
 ## IP
-### Protection of IP
 
-| Title                                                        | Author       | Publish         | Year | Link                             | Source Code                              |
-| ------------------------------------------------------------ | ------------ | --------------- | ---- | -------------------------------- | ---------------------------------------- |
-|                                                              |              |                 |      |                                  |                                          |
-| AIGC-Chain: A Blockchain-Enabled Full Lifecycle Recording System for AIGC Product Copyright Management | Jiajia Jiang | arixv           | 2024 | https://arxiv.org/abs/2406.14966 | null                                     |
-| PID: Prompt-Independent Data Protection Against Latent Diffusion Models | Ang Li       | arxiv           | 2024 | https://arxiv.org/abs/2406.15305 | null                                     |
-| Glaze: Protecting Artists from Style Mimicry by Text-to-Image Models | Shawn Shan   | USENIX Security | 2023 | https://arxiv.org/abs/2302.04222 | null                                     |
-| Generative Watermarking Against Unauthorized Subject-Driven Image Synthesis | Yihan Ma     | arxiv           | 2023 | https://arxiv.org/abs/2306.07754 | null                                     |
-| Toward effective protection against diffusion based mimicry through score distillation | Haotian Xue  | arxiv           | 2023 | https://arxiv.org/abs/2311.12832 | https://github.com/xavihart/Diff-Protect |
-| A Watermark-Conditioned Diffusion Model for IP Protection    | Rui Min      | arxiv           | 2024 | https://arxiv.org/abs/2403.10893 | null                                     |
-| RAW: A Robust and Agile Plug-and-Play Watermark Framework for AI-Generated Images with Provable Guarantees | Xun Xian     | arxiv           | 2024 | https://arxiv.org/abs/2403.18774 | null                                     |
-| A Training-Free Plug-and-Play Watermark Framework for Stable Diffusion | Guokai Zhang | arxiv           | 2024 | https://arxiv.org/abs/2404.05607 | null                                     |
-| Gaussian Shading: Provable Performance-Lossless Image Watermarking for Diffusion Models | Zijin Yang   | arxiv           | 2024 | https://arxiv.org/abs/2404.04956 | null                                     |
-| Lazy Layers to Make Fine-Tuned Diffusion Models More Traceable | Haozhe Liu   | arxiv           | 2024 | https://arxiv.org/abs/2405.00466 | null                                     |
-| DiffuseTrace: A Transparent and Flexible Watermarking Scheme for Latent Diffusion Model | Liangqi Lei  | arxiv           | 2024 | https://arxiv.org/abs/2405.02696 | null                                     |
-| AquaLoRA: Toward White-box Protection for Customized Stable Diffusion Models via Watermark LoRA | Weitao Feng  | arxiv           | 2024 | https://arxiv.org/abs/2405.11135 | null                                     |
+### Protection
 
-### Violation of IP
+| Title                                                        | Author          | Publish         | Year | Link                             | Source Code                                         |
+| ------------------------------------------------------------ | --------------- | --------------- | ---- | -------------------------------- | --------------------------------------------------- |
+|                                                              |                 |                 |      |                                  |                                                     |
+| AIGC-Chain: A Blockchain-Enabled Full Lifecycle Recording System for AIGC Product Copyright Management | Jiajia Jiang    | arixv           | 2024 | https://arxiv.org/abs/2406.14966 | null                                                |
+| PID: Prompt-Independent Data Protection Against Latent Diffusion Models | Ang Li          | arxiv           | 2024 | https://arxiv.org/abs/2406.15305 | null                                                |
+| Glaze: Protecting Artists from Style Mimicry by Text-to-Image Models | Shawn Shan      | USENIX Security | 2023 | https://arxiv.org/abs/2302.04222 | null                                                |
+| Generative Watermarking Against Unauthorized Subject-Driven Image Synthesis | Yihan Ma        | arxiv           | 2023 | https://arxiv.org/abs/2306.07754 | null                                                |
+| Toward effective protection against diffusion based mimicry through score distillation | Haotian Xue     | arxiv           | 2023 | https://arxiv.org/abs/2311.12832 | https://github.com/xavihart/Diff-Protect            |
+| A Watermark-Conditioned Diffusion Model for IP Protection    | Rui Min         | arxiv           | 2024 | https://arxiv.org/abs/2403.10893 | null                                                |
+| RAW: A Robust and Agile Plug-and-Play Watermark Framework for AI-Generated Images with Provable Guarantees | Xun Xian        | arxiv           | 2024 | https://arxiv.org/abs/2403.18774 | null                                                |
+| A Training-Free Plug-and-Play Watermark Framework for Stable Diffusion | Guokai Zhang    | arxiv           | 2024 | https://arxiv.org/abs/2404.05607 | null                                                |
+| Gaussian Shading: Provable Performance-Lossless Image Watermarking for Diffusion Models | Zijin Yang      | arxiv           | 2024 | https://arxiv.org/abs/2404.04956 | null                                                |
+| Lazy Layers to Make Fine-Tuned Diffusion Models More Traceable | Haozhe Liu      | arxiv           | 2024 | https://arxiv.org/abs/2405.00466 | null                                                |
+| DiffuseTrace: A Transparent and Flexible Watermarking Scheme for Latent Diffusion Model | Liangqi Lei     | arxiv           | 2024 | https://arxiv.org/abs/2405.02696 | null                                                |
+| AquaLoRA: Toward White-box Protection for Customized Stable Diffusion Models via Watermark LoRA | Weitao Feng     | arxiv           | 2024 | https://arxiv.org/abs/2405.11135 | null                                                |
+| A Recipe for Watermarking Diffusion Models                   | Yunqing Zhao    | arixv           | 2023 | https://arxiv.org/abs/2303.10137 | https://github.com/yunqing-me/WatermarkDM           |
+| Watermarking Diffusion Model                                 | Yugeng Liu      | arxiv           | 2023 | https://arxiv.org/abs/2305.12502 | null                                                |
+| Tree-Ring Watermarks: Fingerprints for Diffusion Images that are Invisible and Robust | Yuxin Wen       | arxiv           | 2023 | https://arxiv.org/abs/2305.20030 | https://github.com/YuxinWenRick/tree-ring-watermark |
+| Generative Models are Self-Watermarked: Declaring Model Authentication through Re-Generation | Aditya Desu     | arxiv           | 2024 | https://arxiv.org/abs/2402.16889 | null                                                |
+| Erasing Concepts from Diffusion Models                       | Rohit Gandikota | arxiv           | 2023 | https://arxiv.org/abs/2303.07345 | https://erasing.baulab.info/                        |
+| Adversarial Example Does Good: Preventing Painting Imitation from Diffusion Models via Adversarial Examples | Chumeng Liang   | ICML            | 2023 | https://arxiv.org/abs/2302.04578 | https://github.com/mist-project/mist.git            |
 
-| Title                                                        | Author       | Publish | Year | Link                             | Source Code                                               |
-| ------------------------------------------------------------ | ------------ | ------- | ---- | -------------------------------- | --------------------------------------------------------- |
-| A Transfer Attack to Image Watermarks                        | Yuepeng Hu   | arxiv   | 2024 | https://arxiv.org/abs/2403.15365 | null                                                      |
-| Disguised Copyright Infringement of Latent Diffusion Models  | Yiwei Lu     | arxiv   | 2024 | https://arxiv.org/abs/2404.06737 | https://github.com/watml/disguised_copyright_infringement |
-| Stable Signature is Unstable: Removing Image Watermark from Diffusion Models | Yuepeng Hu   | arxiv   | 2024 | https://arxiv.org/abs/2405.07145 | null                                                      |
-| UnMarker: A Universal Attack on Defensive Watermarking       | Andre Kassis | arxiv   | 2024 | https://arxiv.org/abs/2405.08363 | null                                                      |
-| FreezeAsGuard: Mitigating Illegal Adaptation of Diffusion Models via Selective Tensor Freezing | Kai Huang    | arxiv   | 2024 | https://arxiv.org/abs/2405.17472 | null                                                      |
-| Adversarial Perturbations Cannot Reliably Protect Artists From Generative AI | Robert Hönig | arxiv   | 2024 | https://arxiv.org/abs/2406.12027 | null                                                      |
-| EnTruth: Enhancing the Traceability of Unauthorized Dataset Usage in Text-to-image Diffusion Models with Minimal and Robust Alterations | Jie Ren      | arxiv   | 2024 | https://arxiv.org/abs/2406.13933 | null                                                      |
+### Violation
+
+| Title                                                        | Author       | Publish | Year | Link                                     | Source Code                                               |
+| ------------------------------------------------------------ | ------------ | ------- | ---- | ---------------------------------------- | --------------------------------------------------------- |
+| A Transfer Attack to Image Watermarks                        | Yuepeng Hu   | arxiv   | 2024 | https://arxiv.org/abs/2403.15365         | null                                                      |
+| Disguised Copyright Infringement of Latent Diffusion Models  | Yiwei Lu     | arxiv   | 2024 | https://arxiv.org/abs/2404.06737         | https://github.com/watml/disguised_copyright_infringement |
+| Stable Signature is Unstable: Removing Image Watermark from Diffusion Models | Yuepeng Hu   | arxiv   | 2024 | https://arxiv.org/abs/2405.07145         | null                                                      |
+| UnMarker: A Universal Attack on Defensive Watermarking       | Andre Kassis | arxiv   | 2024 | https://arxiv.org/abs/2405.08363         | null                                                      |
+| FreezeAsGuard: Mitigating Illegal Adaptation of Diffusion Models via Selective Tensor Freezing | Kai Huang    | arxiv   | 2024 | https://arxiv.org/abs/2405.17472         | null                                                      |
+| Adversarial Perturbations Cannot Reliably Protect Artists From Generative AI | Robert Hönig | arxiv   | 2024 | https://arxiv.org/abs/2406.12027         | null                                                      |
+| EnTruth: Enhancing the Traceability of Unauthorized Dataset Usage in Text-to-image Diffusion Models with Minimal and Robust Alterations | Jie Ren      | arxiv   | 2024 | https://arxiv.org/abs/2406.13933         | null                                                      |
+| Leveraging Optimization for Adaptive Attacks on Image Watermarks | Nils Lukas   | ICLR    | 2024 | https://openreview.net/pdf?id=O9PArxKLe1 | null                                                      |
+
+### Survey
+
+| Title                                                        | Author  | Publish | Year | Link                             | Source Code |
+| ------------------------------------------------------------ | ------- | ------- | ---- | -------------------------------- | ----------- |
+| Copyright Protection in Generative AI: A Technical Perspective | Jie Ren | arxiv   | 2024 | https://arxiv.org/abs/2402.02333 | null        |
+
+## Privacy
+
+### Attack
+
+| Title                                                        | Author              | Publish | Year | Link                                     | Source Code                                 |
+| ------------------------------------------------------------ | ------------------- | ------- | ---- | ---------------------------------------- | ------------------------------------------- |
+| Recovering the Pre-Fine-Tuning Weights of Generative Models  | Eliahu Horwitz      | arxiv   | 2024 | https://arxiv.org/abs/2402.10208         | null                                        |
+| Membership Inference Attacks Against Text-to-image Generation Models | Yixin Wu            | arxiv   | 2022 | https://arxiv.org/abs/2210.00968         | null                                        |
+| Class Attribute Inference Attacks: Inferring Sensitive Class Information by Diffusion-Based Attribute Manipulations | Lukas Struppek      | arxiv   | 2023 | https://arxiv.org/abs/2303.09289         | null                                        |
+| White-box Membership Inference Attacks against Diffusion Models | Yan Pang            | arxiv   | 2023 | https://arxiv.org/abs/2308.06405         | null                                        |
+| An Efficient Membership Inference Attack for the Diffusion Model by Proximal Initialization | Fei Kong            | ICLR    | 2024 | https://openreview.net/pdf?id=rpH9FcCEV6 | https://github.com/kong13661/PIA            |
+| Black-box Membership Inference Attacks against Fine-tuned Diffusion Models | Yan Pang            | arxiv   | 2023 | https://arxiv.org/abs/2312.08207         | null                                        |
+| Prompt Stealing Attacks Against Text-to-Image Generation Models | Xinyue Shen         | arxiv   | 2023 | https://arxiv.org/abs/2302.09923         | null                                        |
+| Shake to Leak: Fine-tuning Diffusion Models Can Amplify the Generative Privacy Risk | Zhangheng Li        | arxiv   | 2024 | https://arxiv.org/html/2403.09450v1      | https://github.com/VITA-Group/Shake-to-Leak |
+| Is Diffusion Model Safe? Severe Data Leakage via Gradient-Guided Diffusion Model | Jiayang Meng        | arxiv   | 2024 | https://arxiv.org/abs/2406.09484         | null                                        |
+| Extracting Training Data from Unconditional Diffusion Models | Yunhao Chen         | arxiv   | 2024 | https://arxiv.org/abs/2406.12752         | null                                        |
+| Extracting Training Data from Diffusion Models               | Nicholas Carlini    | arxiv   | 2023 | https://arxiv.org/abs/2301.13188         | null                                        |
+| Towards Black-Box Membership Inference Attack for Diffusion Models | Jingwei Li          | arxiv   | 2024 | https://arxiv.org/abs/2405.20771         | null                                        |
+| Visual Privacy Auditing with Diffusion Models                | Kristian Schwethelm | arxiv   | 2024 | https://arxiv.org/abs/2403.07588         | null                                        |
+| Membership Inference on Text-to-Image Diffusion Models via Conditional Likelihood Discrepancy | Shengfang Zhai      | arxiv   | 2024 | https://arxiv.org/abs/2405.14800         | null                                        |
+| Extracting Prompts by Inverting LLM Outputs                  | Collin Zhang        | arxiv   | 2024 | https://arxiv.org/abs/2405.15012         | null                                        |
+
+### Defense
+
+| Title                                                        | Author        | Publish | Year | Link                                     | Source Code                                          |
+| ------------------------------------------------------------ | ------------- | ------- | ---- | ---------------------------------------- | ---------------------------------------------------- |
+| Differentially Private Fine-Tuning of Diffusion Models       | Yu-Lin Tsai   | arxiv   | 2024 | https://arxiv.org/abs/2406.01355         | https://anonymous.4open.science/r/DP-LORA-F02F       |
+| Privacy-Preserving Diffusion Model Using Homomorphic Encryption | Yaojian Chen  | arxiv   | 2024 | https://arxiv.org/abs/2403.05794         | null                                                 |
+| Efficient Differentially Private Fine-Tuning of Diffusion Models | Jing Liu      | arxiv   | 2024 | https://arxiv.org/abs/2406.05257         | null                                                 |
+| Differentially Private Synthetic Data via Foundation Model APIs 1: Images | Zinan Lin     | ICLR    | 2024 | https://openreview.net/pdf?id=YEhQs8POIo | https://github.com/microsoft/DPSDA                   |
+| Anti-DreamBooth: Protecting users from personalized text-to-image synthesis | Thanh Van Le  | ICCV    | 2023 | https://arxiv.org/abs/2303.15433         | https://github.com/VinAIResearch/Anti-DreamBooth.git |
+| Unlearnable Examples for Diffusion Models: Protect Data from Unauthorized Exploitation | Zhengyue Zhao | arxiv   | 2023 | https://arxiv.org/abs/2306.01902         | null                                                 |
+| Can Protective Perturbation Safeguard Personal Data from Being Exploited by Stable Diffusion? | Zhengyue Zhao | arxiv   | 2023 | https://arxiv.org/abs/2312.00084         | null                                                 |
+| MetaCloak: Preventing Unauthorized Subject-driven Text-to-image Diffusion-based Synthesis via Meta-learning | Yixin Liu     | arxiv   | 2023 | https://arxiv.org/abs/2311.13127         | https://github.com/liuyixin-louis/MetaCloak          |
+
+### Benchmark
+
+| Title                                                        | Author      | Publish | Year | Link                             | Source Code                              |
+| ------------------------------------------------------------ | ----------- | ------- | ---- | -------------------------------- | ---------------------------------------- |
+| Raccoon: Prompt Extraction Benchmark of LLM-Integrated Applications | Junlin Wang | arxiv   | 2024 | https://arxiv.org/abs/2406.06737 | https://github.com/M0gician/RaccoonBench |
+
+## Memorization
+
+| Title                                                        | Author       | Publish | Year | Link                                     | Source Code                                               |
+| ------------------------------------------------------------ | ------------ | ------- | ---- | ---------------------------------------- | --------------------------------------------------------- |
+| SalUn: Empowering Machine Unlearning via Gradient-based Weight Saliency in Both Image Classification and Generation | Chongyu Fan  | ICLR    | 2024 | https://openreview.net/pdf?id=gn0mIhQGNM | https://github.com/OPTML-Group/Unlearn-Saliency           |
+| Ring-A-Bell! How Reliable are Concept Removal Methods For Diffusion Models? | Yu-Lin Tsai  | ICLR    | 2024 | https://openreview.net/pdf?id=lm7MRcsFiS | https://github.com/chiayi-hsu/Ring-A-Bell                 |
+| Defensive Unlearning with Adversarial Training for Robust Concept Erasure in Diffusion Models | Yimeng Zhang | arxiv   | 2024 | https://arxiv.org/abs/2405.15234         | https://github.com/OPTML-Group/AdvUnlearn                 |
+| Espresso: Robust Concept Filtering in Text-to-Image Models   | Anudeep Das  | arxiv   | 2024 | https://arxiv.org/abs/2404.19227         | null                                                      |
+| Machine Unlearning for Image-to-Image Generative Models      | Guihong Li   | arxiv   | 2024 | https://arxiv.org/abs/2402.00351         | https://github.com/jpmorganchase/l2l-generator-unlearning |
+| MACE: Mass Concept Erasure in Diffusion Models               | Shilin Lu    | arxiv   | 2024 | https://arxiv.org/abs/2403.06135         | https://github.com/Shilin-LU/MACE                         |
+| Unveiling and Mitigating Memorization in Text-to-image Diffusion Models through Cross Attention | Jie Ren      | arxiv   | 2024 | https://arxiv.org/abs/2403.11052         | https://github.com/renjie3/MemAttn                        |
+| Could It Be Generated? Towards Practical Analysis of Memorization in Text-To-Image Diffusion Models | Zhe Ma       | arxiv   | 2024 | https://arxiv.org/abs/2405.05846         | null                                                      |
+
+## Deepfake
+
+### Construction
+
+| Title                                                        | Author                  | Publish | Year | Link                                     | Source Code                                           |
+| ------------------------------------------------------------ | ----------------------- | ------- | ---- | ---------------------------------------- | ----------------------------------------------------- |
+| An Analysis of Recent Advances in Deepfake Image Detection in an Evolving Threat Landscape | Sifat Muhammad Abdullah | S&P     | 2024 | https://arxiv.org/abs/2404.16212         | null                                                  |
+| Robustness of AI-Image Detectors: Fundamental Limits and Practical Attacks | Mehrdad Saberi          | ICLR    | 2024 | https://openreview.net/pdf?id=dLoAdIKENc | https://github.com/mehrdadsaberi/watermark_robustness |
+
+### Detection
+
+| Title                                                        | Author                  | Publish | Year | Link                             | Source Code |
+| ------------------------------------------------------------ | ----------------------- | ------- | ---- | -------------------------------- | ----------- |
+| DeepFake-O-Meter v2.0: An Open Platform for DeepFake Detection | Yan Ju                  | arxiv   | 2024 | https://arxiv.org/abs/2404.13146 | null        |
+| DE-FAKE: Detection and Attribution of Fake Images Generated by Text-to-Image Generation Models | Zeyang Sha              | arxiv   | 2022 | https://arxiv.org/abs/2210.06998 | null        |
+| Organic or Diffused: Can We Distinguish Human Art from AI-generated Images? | Anna Yoo Jeong Ha       | arxiv   | 2024 | https://arxiv.org/abs/2402.03214 | null        |
+| Watermark-based Detection and Attribution of AI-Generated Content | Zhengyuan Jiang         | arxiv   | 2024 | https://arxiv.org/abs/2404.04254 | null        |
+| An Analysis of Recent Advances in Deepfake Image Detection in an Evolving Threat Landscape | Sifat Muhammad Abdullah | S&P     | 2024 | https://arxiv.org/abs/2404.16212 | null        |
+
+### Benchmark
+
+| Title                                                        | Author    | Publish | Year | Link                             | Source Code |
+| ------------------------------------------------------------ | --------- | ------- | ---- | -------------------------------- | ----------- |
+| The Adversarial AI-Art: Understanding, Generation, Detection, and Benchmarking | Yuying Li | arxiv   | 2024 | https://arxiv.org/abs/2404.14581 | null        |
+
+## Bias
+
+| Title                                                        | Author      | Publish | Year | Link                                     | Source Code                                        |
+| ------------------------------------------------------------ | ----------- | ------- | ---- | ---------------------------------------- | -------------------------------------------------- |
+| Finetuning Text-to-Image Diffusion Models for Fairness       | Xudong Shen | ICLR    | 2024 | https://openreview.net/pdf?id=hnrB5YHoYu | https://sail-sg.github.io/finetune-fair-diffusion/ |
+| ViSAGe: A Global-Scale Analysis of Visual Stereotypes in Text-to-Image Generation | Akshita Jha | arxiv   | 2024 | https://arxiv.org/abs/2401.06310         | null                                               |
+
+## Backdoor
+
+### Attack
+
+| Title                                                        | Author         | Publish | Year | Link                             | Source Code |
+| ------------------------------------------------------------ | -------------- | ------- | ---- | -------------------------------- | ----------- |
+| Rickrolling the Artist: Injecting Backdoors into Text Encoders for Text-to-Image Synthesis | Lukas Struppek | ICCV    | 2023 | https://arxiv.org/abs/2211.02408 | null        |
+| Generating Potent Poisons and Backdoors from Scratch with Guided Diffusion | Hossein Souri  | arxiv   | 2024 | https://arxiv.org/abs/2403.16365 | null        |
+
+### Defense
+
+| Title                                                        | Author        | Publish          | Year | Link                             | Source Code                                                  |
+| ------------------------------------------------------------ | ------------- | ---------------- | ---- | -------------------------------- | ------------------------------------------------------------ |
+| Diffusion Denoising as a Certified Defense against Clean-label Poisoning | Sanghyun Hong | arxiv            | 2024 | https://arxiv.org/abs/2403.11981 | null                                                         |
+| Leveraging Diffusion-Based Image Variations for Robust Training on Poisoned Data |               | NeurIPS Workshop | 2023 | https://arxiv.org/abs/2310.06372 | null                                                         |
+| UFID: A Unified Framework for Input-level Backdoor Detection on Diffusion Models | Zihan Guan    | arxiv            | 2024 | https://arxiv.org/abs/2404.01101 | https://github.com/GuanZihan/official_UFID                   |
+| Invisible Backdoor Attacks on Diffusion Models               |               | arxiv            | 2024 | https://arxiv.org/abs/2406.00816 | https://github.com/invisibleTriggerDiffusion/invisible_triggers_for_diffusion |
+| Watch the Watcher! Backdoor Attacks on Security-Enhancing Diffusion Models | Changjiang Li | arxiv            | 2024 | https://arxiv.org/abs/2406.09669 | null                                                         |
+| Injecting Bias in Text-To-Image Models via Composite-Trigger Backdoors | Ali Naseh     | arxiv            | 2024 | https://arxiv.org/abs/2406.15213 | null                                                         |
+
+## Adversarial
+
+### Attack
+
+| Title                                                        | Author         | Publish | Year | Link                             | Source Code                                                  |
+| ------------------------------------------------------------ | -------------- | ------- | ---- | -------------------------------- | ------------------------------------------------------------ |
+| Diffusion-Based Adversarial Sample Generation for Improved Stealthiness and Controllability | Haotian Xue    | NeurIPS | 2023 | https://arxiv.org/abs/2305.16494 | https://github.com/xavihart/Diff-PGD                         |
+| Stable Diffusion is Unstable                                 | Chengbin Du    | arxiv   | 2023 | https://arxiv.org/abs/2306.02583 | null                                                         |
+| DiffAttack: Evasion Attacks Against Diffusion-Based Adversarial Purification | Mintong Kang   | NeurIPS | 2023 | https://arxiv.org/abs/2311.16124 | null                                                         |
+| Exploring Adversarial Attacks against Latent Diffusion Model from the Perspective of Adversarial Transferability | Junxi Chen     | arxiv   | 2024 | https://arxiv.org/abs/2401.07087 | null                                                         |
+| Revealing Vulnerabilities in Stable Diffusion via Targeted Attacks | Chenyu Zhang   | arxiv   | 2024 | https://arxiv.org/abs/2401.08725 | https://github.com/datar001/Revealing-Vulnerabilities-in-Stable-Diffusion-via-Targeted-Attacks |
+| Cheating Suffix: Targeted Attack to Text-To-Image Diffusion Models with Multi-Modal Priors | Dingcheng Yang | arxiv   | 2024 | https://arxiv.org/abs/2402.01369 | https://github.com/ydc123/MMP-Attack                         |
+| Groot: Adversarial Testing for Generative Text-to-Image Models with Tree-based Semantic Transformation | Yi Liu         | arxiv   | 2024 | https://arxiv.org/abs/2402.12100 | null                                                         |
+| BSPA: Exploring Black-box Stealthy Prompt Attacks against Image Generators | Yu Tian        | arxiv   | 2024 | https://arxiv.org/abs/2402.15218 | null                                                         |
+| Perturbing Attention Gives You More Bang for the Buck: Subtle Imaging Perturbations That Efficiently Fool Customized Diffusion Models | Jingyao Xu     | arxiv   | 2024 | https://arxiv.org/abs/2404.15081 | null                                                         |
+| Investigating and Defending Shortcut Learning in Personalized Diffusion Models | Yixin Liu      | arxiv   | 2024 | https://arxiv.org/abs/2406.18944 | null                                                         |
+| Unsafe Diffusion: On the Generation of Unsafe Images and Hateful Memes From Text-To-Image Models | Yiting Qu      | arxiv   | 2024 | https://arxiv.org/abs/2305.13873 | null                                                         |
+| ART: Automatic Red-teaming for Text-to-Image Models to Protect Benign Users |                | arxiv   | 2024 | https://arxiv.org/abs/2405.19360 | https://github.com/GuanlinLee/ART                            |
+
+### Defense
+
+| Title                                                        | Author        | Publish | Year | Link                             | Source Code                     |
+| ------------------------------------------------------------ | ------------- | ------- | ---- | -------------------------------- | ------------------------------- |
+| Raising the Cost of Malicious AI-Powered Image Editing       | Hadi Salman   | arxiv   | 2023 | https://arxiv.org/abs/2302.06588 | null                            |
+| Adversarial Examples are Misaligned in Diffusion Model Manifolds | Peter Lorenz  | arxiv   | 2024 | https://arxiv.org/abs/2401.06637 | null                            |
+| Universal Prompt Optimizer for Safe Text-to-Image Generation | Zongyu Wu     | NAACL   | 2024 | https://arxiv.org/abs/2402.10882 | https://github.com/wzongyu/POSI |
+| Adversarial Nibbler: An Open Red-Teaming Method for Identifying Diverse Harms in Text-to-Image Generation | Jessica Quaye | arxiv   | 2024 | https://arxiv.org/abs/2403.12075 | null                            |
+| SafeGen: Mitigating Unsafe Content Generation in Text-to-Image Models | Xinfeng Li    | arxiv   | 2024 | https://arxiv.org/abs/2404.06666 | null                            |
+
 
 # Competition
 
