@@ -48,13 +48,20 @@
       - Attack
       - Defense
   - [Agent](paper/agent.md)
+      - Backdoor Attack/Defense
+      - Adversarial Attack/Defense
+      - Jaikbreak
+      - Prompt Injection
+      - Hallucination
+      - Others
+      - Survey
 - [Book](book.md)
 - [Tutorial](tutorial.md)
 - [Arena](arena.md)
 - [Competition](competition.md)
   
 ---
-Update[06/29/2024]
+Update[06/30/2024]
 
 # MLLM
 
@@ -352,6 +359,61 @@ Update[06/29/2024]
 | Adversarial Nibbler: An Open Red-Teaming Method for Identifying Diverse Harms in Text-to-Image Generation | Jessica Quaye | arxiv   | 2024 | https://arxiv.org/abs/2403.12075 | null                            |
 | SafeGen: Mitigating Unsafe Content Generation in Text-to-Image Models | Xinfeng Li    | arxiv   | 2024 | https://arxiv.org/abs/2404.06666 | null                            |
 
+# Agent
+
+## Backdoor Attack/Defense
+
+| Title                                                        | Author        | Venue | Year | Link                             | Source Code                       |
+| ------------------------------------------------------------ | ------------- | ----- | ---- | -------------------------------- | --------------------------------- |
+| Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training | Evan Hubinger | arxiv | 2024 | https://arxiv.org/abs/2401.05566 | null                              |
+| BadAgent: Inserting and Activating Backdoor Attacks in LLM Agents | Yifei Wang    | ACL   | 2024 | https://arxiv.org/abs/2406.03007 | https://github.com/DPamK/BadAgent |
+
+## Adversarial Attack/Defense
+
+| Title                                                        | Author              | Venue | Year | Link                             | Source Code                              |
+| ------------------------------------------------------------ | ------------------- | ----- | ---- | -------------------------------- | ---------------------------------------- |
+| Large Language Model Sentinel: Advancing Adversarial Robustness by LLM Agent | Guang Lin           | arxiv | 2024 | https://arxiv.org/abs/2405.20770 | null                                     |
+| Adversarial Attacks on Multimodal Agents                     | Chen Henry Wu       | arxiv | 2024 | https://arxiv.org/abs/2406.12814 | https://github.com/ChenWu98/agent-attack |
+| AgentDojo: A Dynamic Environment to Evaluate Attacks and Defenses for LLM Agents | Edoardo Debenedetti | arxiv | 2024 | https://arxiv.org/abs/2406.13352 | https://github.com/ethz-spylab/agentdojo |
+| GuardAgent: Safeguard LLM Agents by a Guard Agent via Knowledge-Enabled Reasoning | Zhen Xiang          | arxiv | 2024 | https://arxiv.org/abs/2406.09187 | null                                     |
+
+## Jailbreak
+
+| Title                                                        | Author       | Venue | Year | Link                             | Source Code                              |
+| ------------------------------------------------------------ | ------------ | ----- | ---- | -------------------------------- | ---------------------------------------- |
+| Evil Geniuses: Delving into the Safety of LLM-based Agents   | Yu Tian      | arxiv | 2023 | https://arxiv.org/abs/2311.11855 | https://github.com/T1aNS1R/Evil-Geniuses |
+| Agent Smith: A Single Image Can Jailbreak One Million Multimodal LLM Agents Exponentially Fast | Xiangming Gu | ICML  | 2024 | https://arxiv.org/abs/2402.08567 | https://sail-sg.github.io/Agent-Smith/   |
+| AutoDefense: Multi-Agent LLM Defense against Jailbreak Attacks | Yifan Zeng   | arxiv | 2024 | https://arxiv.org/abs/2403.04783 | https://github.com/XHMY/AutoDefense      |
+
+## Prompt Injection
+
+| Title                                                        | Author      | Venue | Year | Link                             | Source Code                                 |
+| ------------------------------------------------------------ | ----------- | ----- | ---- | -------------------------------- | ------------------------------------------- |
+| WIPI: A New Web Threat for LLM-Driven Web Agents             | Fangzhou Wu | arxiv | 2024 | https://arxiv.org/abs/2402.16965 | null                                        |
+| InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents | Qiusi Zhan  | arxiv | 2024 | https://arxiv.org/abs/2403.02691 | https://github.com/uiuc-kang-lab/InjecAgent |
+
+## Hallucination
+
+| Title                                                        | Author      | Venue | Year | Link                                     | Source Code |
+| ------------------------------------------------------------ | ----------- | ----- | ---- | ---------------------------------------- | ----------- |
+| Improving Factuality and Reasoning in Language Models through Multiagent Debate | Yilun Du    | arxiv | 2023 | https://arxiv.org/abs/2305.14325         | null        |
+| MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework |             | ICLR  | 2024 | https://openreview.net/pdf?id=VtmBAGCN7o | null        |
+| Can LLMs Produce Faithful Explanations For Fact-checking? Towards Faithful Explainable Fact-Checking via Multi-Agent Debate | Kyungha Kim | arxiv | 2024 | https://arxiv.org/abs/2402.07401         | null        |
+
+## Others
+
+| Title                                                        | Author                | Venue | Year | Link                                     | Source Code |
+| ------------------------------------------------------------ | --------------------- | ----- | ---- | ---------------------------------------- | ----------- |
+| Achieving Fairness in Multi-Agent MDP Using Reinforcement Learning | Peizhong Ju           | ICLR  | 2024 | https://openreview.net/pdf?id=yoVq2BGQdP | null        |
+| Agent Alignment in Evolving Social Norms                     | Shimin Li             | arxiv | 2024 | https://arxiv.org/abs/2401.04620         | null        |
+| Air Gap: Protecting Privacy-Conscious Conversational Agents  | Eugene Bagdasaryan    | arxiv | 2024 | https://arxiv.org/abs/2405.05175         | null        |
+| Secret Collusion Among Generative AI Agents                  | Sumeet Ramesh Motwani | arxiv | 2024 | https://arxiv.org/abs/2402.07510v1       | null        |
+
+## Survey
+
+| Title                 | Author    | Venue | Year | Link                             | Source Code |
+| --------------------- | --------- | ----- | ---- | -------------------------------- | ----------- |
+| Security of AI Agents | Yifeng He | arxiv | 2024 | https://arxiv.org/abs/2406.08689 | null        |
 
 # Competition
 
