@@ -5,7 +5,8 @@
 <a href=""> <img src="https://img.shields.io/github/forks/NY1024/Awesome-Trustworthy-GenAI?style=flat-square&logo=github" alt="GitHub forks"></a>
 <a href=""> <img src="https://img.shields.io/github/last-commit/NY1024/Awesome-Trustworthy-GenAI"></a>
 </p>
-
+---
+Update[04/07/2024]
 ---
 ## Categories
 - [Paper](paper.md)
@@ -67,7 +68,7 @@
 - [Competition](competition.md)
   
 ---
-Update[06/30/2024]
+
 
 # LLM
 
