@@ -20,6 +20,12 @@ Update[04/07/2024]
       - Benchmark
       - Survey
       - Others
+    - Hallucination
+      - Mitigation
+      - Detection
+      - Benchmark
+      - Survey
+      - Others
   - [MLLM](paper/mllm.md)
     - Jailbreak
       - Attack
@@ -265,6 +271,116 @@ Update[04/07/2024]
 | Rethinking How to Evaluate Language Model Jailbreak          | Hongyu Cai       | arxiv   | Apr-24 | https://arxiv.org/abs/2404.06407 |                                               |
 | Jailbreak Paradox: The Achilles' Heel of LLMs                | Abhinav Rao      | arxiv   | Jun-24 | https://arxiv.org/abs/2406.12702 | null                                          |
 | Hacc-Man: An Arcade Game for Jailbreaking LLMs               | Matheus Valentim | arxiv   | May-24 | https://arxiv.org/abs/2405.15902 | null                                          |
+
+## Hallucination
+
+### Mitigation
+
+| Title                                                        | Author               | Publish | Date     | Link                                     | Source Code                                                  |
+| ------------------------------------------------------------ | -------------------- | ------- | -------- | ---------------------------------------- | ------------------------------------------------------------ |
+| BTR: Binary Token Representations for Efficient Retrieval Augmented Language Models | Qingqing Cao         | ICLR    | Jan-24   | https://openreview.net/pdf?id=3TO3TtnOFl | https://github.com/csarron/BTR                               |
+| Reasoning on Graphs: Faithful and Interpretable Large Language Model Reasoning | LINHAO LUO           | ICLR    | Jan-24   | https://openreview.net/pdf?id=ZGNWW7xZ6Q | https://github.com/RManLuo/reasoning-on-graphs               |
+| Knowledge of Knowledge: Exploring Known-Unknowns Uncertainty with Large Language Models | Alfonso Amayuelas    | arxiv   | May-23   | https://arxiv.org/abs/2305.13712         | null                                                         |
+| Conformal Language Modeling                                  | Victor Quach         | ICLR    | Jun 2023 | https://arxiv.org/pdf/2306.10193         | null                                                         |
+| Inference-Time Intervention: Eliciting Truthful Answers from a Language Model | Kenneth Li           | NeurIPS | Jun 2023 | https://arxiv.org/abs/2306.03341         | https://github.com/likenneth/honest_llama                    |
+| Supervised Knowledge Makes Large Language Models Better In-context Learners | Linyi Yang           | ICLR    | Dec-23   | https://arxiv.org/abs/2312.15918         | https://github.com/YangLinyi/Supervised-Knowledge-Makes-Large-Language-Models-Better-In-context-Learners |
+| Mitigating Hallucination in Large Multi-Modal Models via Robust Instruction Tuning | Fuxiao Liu           | ICLR    | Jun 2023 | https://arxiv.org/abs/2306.14565         | https://github.com/FuxiaoLiu/LRV-Instruction                 |
+| Chain-of-Knowledge: Grounding Large Language Models via Dynamic Knowledge Adapting over Heterogeneous Sources | Xingxuan Li          | ICLR    | May-23   | https://arxiv.org/abs/2305.13269         | https://github.com/DAMO-NLP-SG/chain-of-knowledge            |
+| Fine-Tuning Language Models for Factuality                   | Katherine Tian       | ICLR    | Nov-23   | https://arxiv.org/abs/2311.08401         | https://github.com/kttian/llm_factuality_tuning              |
+| Chain-of-Table: Evolving Tables in the Reasoning Chain for Table Understanding | Zilong Wang          | ICLR    | Jan-24   | https://arxiv.org/abs/2401.04398         | null                                                         |
+| MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework | Sirui Hong           | ICLR    | Aug-23   | https://arxiv.org/abs/2308.00352         | https://github.com/geekan/MetaGPT                            |
+| CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing | Zhibin Gou           | ICLR    | May-23   | https://arxiv.org/pdf/2305.11738         | https://github.com/microsoft/ProphetNet/tree/master/CRITIC   |
+| Improving Factuality and Reasoning in Language Models through Multiagent Debate | Yilun Du             | arxiv   | May-23   | https://arxiv.org/abs/2305.14325         | https://composable-models.github.io/llm_debate/              |
+| Shifting Attention to Relevance: Towards the Predictive Uncertainty Quantification of Free-Form Large Language Models | Jinhao Duan          | arxiv   | Jul-23   | https://arxiv.org/abs/2307.01379         | https://github.com/jinhaoduan/SAR                            |
+| RAPPER: Reinforced Rationale-Prompted Paradigm for Natural Language Explanation in Visual Question Answering | Kai-Po Chang         | ICLR    | Jan 2024 | https://openreview.net/pdf?id=bshfchPM9H | null                                                         |
+| Check Your Facts and Try Again: Improving Large Language Models with External Knowledge and Automated Feedback | Baolin Peng          | arxiv   | Feb 2023 | https://arxiv.org/abs/2302.12813         | https://github.com/pengbaolin/LLM-Augmenter                  |
+| The Knowledge Alignment Problem: Bridging Human and External Knowledge for Large Language Models | Shuo Zhang           | arxiv   | May-23   | https://arxiv.org/abs/2305.13669         | https://github.com/ShuoZhangXJTU/MixAlign                    |
+| Trusting Your Evidence: Hallucinate Less with Context-aware Decoding | Weijia Shi           | arxiv   | May-23   | https://arxiv.org/abs/2305.14739         | null                                                         |
+| Reasoning on Graphs: Faithful and Interpretable Large Language Model Reasoning | LINHAO LUO           | ICLR    | Oct-23   | https://arxiv.org/abs/2310.01061         | https://github.com/RManLuo/reasoning-on-graphs               |
+| Explainable Claim Verification via Knowledge-Grounded Reasoning with Large Language Models | Haoran Wang          | EMNLP   | Oct-23   | https://arxiv.org/abs/2310.05253         | https://github.com/wang2226/FOLK                             |
+| Beyond task performance: evaluating and reducing the flaws of large multimodal models with in-context-learning | Mustafa Shukor       | ICLR    | Oct-23   | https://arxiv.org/abs/2310.00647         | https://github.com/mshukor/EvALign-ICL                       |
+| Mitigating Large Language Model Hallucinations via Autonomous Knowledge Graph-based Retrofitting | Xinyan Guan          | arxiv   | Nov-23   | https://arxiv.org/abs/2311.13314         | null                                                         |
+| Knowledge Verification to Nip Hallucination in the Bud       | Fanqi Wan            | arxiv   | Jan 2024 | https://arxiv.org/abs/2401.10768         | https://github.com/fanqiwan/KCA                              |
+| Model Editing Harms General Abilities of Large Language Models: Regularization to the Rescue | Jia-Chen Gu          | arxiv   | Jan 2024 | https://arxiv.org/abs/2401.04700         | null                                                         |
+| Reducing Hallucinations in Entity Abstract Summarization with Facts-Template Decomposition | Fangwei Zhu          | arxiv   | Feb-24   | https://arxiv.org/abs/2402.18873         | null                                                         |
+| Chain-of-Note: Enhancing Robustness in Retrieval-Augmented Language Models | Wenhao Yu            | arxiv   | Nov-23   | https://arxiv.org/abs/2311.09210         | null                                                         |
+| Reducing hallucination in structured outputs via Retrieval-Augmented Generation | Patrice Béchard      | NAACL   | Apr 2024 | https://arxiv.org/abs/2404.08189         | null                                                         |
+| Improving Factual Error Correction by Learning to Inject Factual Errors | Xingwei He           | AAAI    | Dec-23   | https://arxiv.org/abs/2312.07049         | null                                                         |
+| Strong hallucinations from negation and how to fix them      | Nicholas Asher       | arxiv   | Feb-24   | https://arxiv.org/abs/2402.10543         | null                                                         |
+| Retrieve Only When It Needs: Adaptive Retrieval Augmentation for Hallucination Mitigation in Large Language Models | Hanxing Ding         | arxiv   | Feb-24   | https://arxiv.org/abs/2402.10612         | null                                                         |
+| Truth-Aware Context Selection: Mitigating Hallucinations of Large Language Models Being Misled by Untruthful Contexts | Tian Yu              | ACL     | Mar-24   | https://arxiv.org/abs/2403.07556         | https://github.com/ictnlp/TACS                               |
+| Enhancing LLM Factual Accuracy with RAG to Counter Hallucinations: A Case Study on Domain-Specific Queries in Private Knowledge-Bases | Jiarui Li            | arxiv   | Mar-24   | https://arxiv.org/abs/2403.10446         | https://github.com/anlp-team/LTI_Neural_Navigator            |
+| Uncertainty-Based Abstention in LLMs Improves Safety and Reduces Hallucinations | Christian Tomani     | arxiv   | Apr-24   | https://arxiv.org/abs/2404.10960         | null                                                         |
+| TruthX: Alleviating Hallucinations by Editing Large Language Models in Truthful Space | Shaolei Zhang        | ACL     | Feb-24   | https://arxiv.org/abs/2402.17811         | https://ictnlp.github.io/TruthX-site/                        |
+| Measuring and Reducing LLM Hallucination without Gold-Standard Answers | Jiaheng Wei          | arxiv   | Feb-24   | https://arxiv.org/abs/2402.10412         | null                                                         |
+| Mitigating LLM Hallucinations via Conformal Abstention       | Yasin Abbasi Yadkori | arxiv   | Apr-24   | https://arxiv.org/abs/2405.01563         | null                                                         |
+| Understanding the Effects of Iterative Prompting on Truthfulness | Satyapriya Krishna   | arxiv   | Feb-24   | https://arxiv.org/abs/2402.06625         | null                                                         |
+| Mitigating Hallucinations in Large Language Models via Self-Refinement-Enhanced Knowledge Retrieval | Mengjia Niu          | arxiv   | May-24   | https://arxiv.org/abs/2405.06545         | null                                                         |
+| Can LLMs Produce Faithful Explanations For Fact-checking? Towards Faithful Explainable Fact-Checking via Multi-Agent Debate | Kyungha Kim          | arxiv   | Feb-24   | https://arxiv.org/abs/2402.07401         | null                                                         |
+
+### Detection
+
+| Title                                                        | Author            | Venue | Date   | Link                             | Source Code                              |
+| ------------------------------------------------------------ | ----------------- | ----- | ------ | -------------------------------- | ---------------------------------------- |
+| SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models | Potsawee Manakul  | EMNLP | Mar-23 | https://arxiv.org/abs/2303.08896 | https://github.com/potsawee/selfcheckgpt |
+| A Stitch in Time Saves Nine: Detecting and Mitigating Hallucinations of LLMs by Validating Low-Confidence Generation | Neeraj Varshney   | arxiv | Jul-23 | https://arxiv.org/abs/2307.03987 |                                          |
+| Self-contradictory Hallucinations of Large https://arxiv.org/abs/2305.15852 Models: Evaluation, Detection and Mitigation | Niels Mündler     | ICLR  | May-23 | https://arxiv.org/abs/2305.15852 | https://chatprotect.ai/                  |
+| Fact-Checking Complex Claims with Program-Guided Reasoning   | Liangming Pan     | ACL   | May-23 | https://arxiv.org/abs/2305.12744 | https://github.com/mbzuai-nlp/ProgramFC  |
+| INSIDE: LLMs' Internal States Retain the Power of Hallucination Detection | Chao Chen         | ICLR  | Feb-24 | https://arxiv.org/abs/2402.03744 | null                                     |
+| Detecting Hallucinations in Large Language Model Generation: A Token Probability Approach | Ernesto Quevedo   | ICAI  | May-24 | https://arxiv.org/abs/2405.19648 | https://github.com/Baylor-AI/HalluDetect |
+| Unsupervised Real-Time Hallucination Detection based on the Internal States of Large Language Models | Weihang Su        |       | Mar-24 | https://arxiv.org/abs/2403.06448 | null                                     |
+| Enhancing Uncertainty-Based Hallucination Detection with Stronger Focus | Tianhang Zhang    | EMNLP | Nov-23 | https://arxiv.org/abs/2311.13230 | null                                     |
+| In Search of Truth: An Interrogation Approach to Hallucination Detection | Yakir Yehuda      | arxiv | Mar-24 | https://arxiv.org/abs/2403.02889 | null                                     |
+| PoLLMgraph: Unraveling Hallucinations in Large Language Models via State Transition Dynamics | Derui Zhu         | arxiv | Apr-24 | https://arxiv.org/abs/2404.04722 | null                                     |
+| Fact-Checking the Output of Large Language Models via Token-Level Uncertainty Quantification | Ekaterina Fadeeva | ACL   | Mar-24 | https://arxiv.org/pdf/2403.04696 | null                                     |
+| Can We Verify Step by Step for Incorrect Answer Detection?   | Xin Xu            | arxiv | Feb-24 | https://arxiv.org/abs/2402.10528 | https://github.com/XinXU-USTC/R2PE       |
+| Comparing Hallucination Detection Metrics for Multilingual Generation | Haoqiang Kang     | arxiv | Feb-24 | https://arxiv.org/abs/2402.10496 | null                                     |
+
+### Benchmark
+
+| Title                                                        | Author         | Publish | Date   | Link                                     | Source Code                                                 |
+| ------------------------------------------------------------ | -------------- | ------- | ------ | ---------------------------------------- | ----------------------------------------------------------- |
+| Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models | Yue Zhang      | arxiv   | Sep-23 | https://arxiv.org/abs/2309.01219         | null                                                        |
+| LitCab: Lightweight Language Model Calibration over Short- and Long-form Responses | Xin Liu        | ICLR    | Oct-23 | https://arxiv.org/abs/2310.19208         | https://github.com/launchnlp/LitCab                         |
+| Towards Understanding Factual Knowledge of Large Language Models | Xuming Hu      | ICLR    | Jan-24 | https://openreview.net/pdf?id=9OevMUdods | https://github.com/THU-BPM/Pinocchio                        |
+| HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models | Junyi Li       | EMNLP   | May-23 | https://arxiv.org/abs/2305.11747         | https://github.com/RUCAIBox/HaluEval                        |
+| UHGEval: Benchmarking the Hallucination of Chinese Large Language Models via Unconstrained Generation | Xun Liang      | ACL     | Nov-23 | https://arxiv.org/abs/2311.15296         | https://iaar-shanghai.github.io/UHGEval/                    |
+| HaluEval-Wild: Evaluating Hallucinations of Language Models in the Wild | Zhiying Zhu    | arxiv   | Mar-24 | https://arxiv.org/abs/2403.04307         | https://github.com/Dianezzy/HaluEval-Wild                   |
+| Constructing Benchmarks and Interventions for Combating Hallucinations in LLMs | Adi Simhi      | arxiv   | Apr-24 | https://arxiv.org/abs/2404.09971         | https://github.com/technion-cs-nlp/hallucination-mitigation |
+| DelucionQA: Detecting Hallucinations in Domain-specific Question Answering | Mobashir Sadat | EMNLP   | Dec-23 | https://arxiv.org/abs/2312.05200         | https://github.com/boschresearch/DelucionQA                 |
+| DiaHalu: A Dialogue-level Hallucination Evaluation Benchmark for Large Language Models | Kedi Chen      | arxiv   | Mar-24 | https://arxiv.org/abs/2403.00896         | https://github.com/141forever/DiaHalu                       |
+| ERBench: An Entity-Relationship based Automatically Verifiable Hallucination Benchmark for Large Language Models | Jio Oh         | arxiv   | Mar-24 | https://arxiv.org/abs/2403.05266         | https://github.com/DILAB-KAIST/ERBench                      |
+
+### Survey
+
+| Title                                                        | Author                | Publish | Date     | Link                             | Source Code |
+| ------------------------------------------------------------ | --------------------- | ------- | -------- | -------------------------------- | ----------- |
+| Survey of Hallucination in Natural Language Generation       | Ziwei Ji              | arxiv   | Feb 2022 | https://arxiv.org/abs/2202.03629 | null        |
+| Survey on Factuality in Large Language Models: Knowledge, Retrieval and Domain-Specificity | Cunxiang Wang         | arxiv   | Oct-23   | https://arxiv.org/abs/2310.07521 | null        |
+| The Human Factor in Detecting Errors of Large Language Models: A Systematic Literature Review and Future Research Directions | Christian A. Schiller | arxiv   | Mar-24   | https://arxiv.org/abs/2403.09743 | null        |
+| A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions | Lei Huang,            | arxiv   | Nov-23   | https://arxiv.org/abs/2311.05232 | null        |
+
+### Other
+
+| Title                                                        | Author                    | Publish | Date     | Link                             | Source Code                                       |
+| ------------------------------------------------------------ | ------------------------- | ------- | -------- | -------------------------------- | ------------------------------------------------- |
+| Sources of Hallucination by Large Language Models on Inference Tasks | Nick McKenna              | EMNLP   | May-23   | https://arxiv.org/abs/2305.14552 | null                                              |
+| Teaching Language Models to Hallucinate Less with Synthetic Tasks | Erik Jones                | ICLR    | Oct-23   | https://arxiv.org/abs/2310.06827 | null                                              |
+| In ChatGPT We Trust? Measuring and Characterizing the Reliability of ChatGPT | Xinyue Shen               | arxiv   | Apr-23   | https://arxiv.org/abs/2304.08979 | null                                              |
+| When Large Language Models contradict humans? Large Language Models' Sycophantic Behaviour | Leonardo Ranaldi          | arxiv   | Nov-23   | https://arxiv.org/abs/2311.09410 | null                                              |
+| Calibrated Language Models Must Hallucinate                  | Adam Tauman Kalai         | STOC    | Nov-23   | https://arxiv.org/abs/2311.14648 | null                                              |
+| C-RAG: Certified Generation Risks for Retrieval-Augmented Language Models | Mintong Kang              | ICML    | Feb-24   | https://arxiv.org/abs/2402.03181 | null                                              |
+| Large Language Models are Null-Shot Learners                 | Pittawat Taveekitworachai | arxiv   | Jan 2024 | https://arxiv.org/abs/2401.08273 | null                                              |
+| Hallucination is Inevitable: An Innate Limitation of Large Language Models | Ziwei Xu                  | arxiv   | Jan-24   | https://arxiv.org/abs/2401.11817 | null                                              |
+| Relying on the Unreliable: The Impact of Language Models' Reluctance to Express Uncertainty | Kaitlyn Zhou              | arxiv   | Jan 2024 | https://arxiv.org/abs/2401.06730 | null                                              |
+| Deficiency of Large Language Models in Finance: An Empirical Examination of Hallucination | Haoqiang Kang             | arxiv   | Nov-23   | https://arxiv.org/abs/2311.15548 | null                                              |
+| Banishing LLM Hallucinations Requires Rethinking Generalization | Johnny Li                 | arxiv   | Jun-24   | https://arxiv.org/abs/2406.17642 | null                                              |
+| Seven Failure Points When Engineering a Retrieval Augmented Generation System | Scott Barnett             | arxiv   | Jan-24   | https://arxiv.org/abs/2401.05856 | null                                              |
+| Does Fine-Tuning LLMs on New Knowledge Encourage Hallucinations? | Zorik Gekhman             | arxiv   | May-24   | https://arxiv.org/abs/2405.05904 | null                                              |
+| The Earth is Flat because...: Investigating LLMs' Belief towards Misinformation via Persuasive Conversation | Rongwu Xu                 | ACL     | Dec-23   | https://arxiv.org/abs/2312.09085 | https://llms-believe-the-earth-is-flat.github.io/ |
+| Tell me the truth: A system to measure the trustworthiness of Large Language Model | Carlo Lipizzi             | arxiv   | Mar-24   | https://arxiv.org/abs/2403.04964 | null                                              |
+
+
 
 # MLLM
 
